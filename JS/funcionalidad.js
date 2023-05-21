@@ -220,10 +220,12 @@ function movimiento_de_div(){
 function mostrarModal(){
     document.getElementById("frame_login").style.display = "block";
     var elemento = document.getElementById("miElemento");
-    elemento.classList.toggle("bajoBrillo");
+    elemento.style.filter = "brightness(50%)"
 }
 
 function cerrarModal(){
     document.getElementById("frame_login").style.display = "none";
+    var div = document.getElementById("miElemento");
+      div.style.filter = "brightness(100%)";
     
 }
