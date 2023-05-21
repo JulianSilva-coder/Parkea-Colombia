@@ -12,7 +12,7 @@
     
 }
 .card-body{
-    margin: 10%;
+    margin: 13%;
 }
 .gradient-custom-2 {
     /* fallback for old browsers */
@@ -36,3 +36,10 @@
     border-bottom-right-radius: .3rem;
     }
     }
+
+    .logo a {
+        font-size: 0px;
+        font-weight: bold;
+        line-height: 5px;
+        float: right;
+   }
