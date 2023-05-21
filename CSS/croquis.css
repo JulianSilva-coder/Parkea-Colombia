@@ -1,11 +1,8 @@
-body{
-    background: url(/Images/bandera.webp);
-    background-size: contain;
-}
-
 .mapadiv{
- width: 100%;
- margin: auto;
+ width: 500px;
+ margin: -80px;
+ float: left;
+ cursor: pointer;
 }
 
 .mapadiv path{
@@ -15,10 +12,6 @@ body{
 
 .mapadiv :hover{
     fill: #ff0000;
-}
-.fondo{
-    background: url(/Images/bandera.webp);
-    background-size: contain;
 }
 .card-body{
     margin: 11.6%;
