@@ -13,7 +13,7 @@
 }
 
 .card-body{
-    margin: -0.9%;
+    margin: -6%;
 }
 .gradient-custom-2 {
     /* fallback for old browsers */
@@ -75,3 +75,9 @@
       .decorative-button-register {
         background-color: #fff200; /* Cambia el color de fondo al pasar el cursor */
       }
+
+      .logo a {
+        font-size: 0px;
+        font-weight: bold;
+        line-height: 5px;
+   }
