@@ -439,7 +439,7 @@ header a img{
 /** car section **/
 
 .car {
-     background: #fff;
+     background: #fdd000;
      margin-top: 90px;
 }
 
@@ -473,7 +473,7 @@ header a img{
 
 .car_box h3 {
      color: #0c0c0e;
-     background-color: #f6d601;
+     background-color: #fdd000;
      font-size: 30px;
      line-height: 28px;
      height: 84px;
@@ -656,7 +656,7 @@ header a img{
 }
 
 .cutomer .titlepage h2 {
-     color: #fff;
+     color: #fdd000;
 }
 
 .cutomer_Carousel .carousel-caption {
@@ -742,7 +742,7 @@ header a img{
 /** footer **/
 
 .multi {
-     color: #f6d601;
+     color: #ffffff;
      font-weight: bold;
      font-size: 40px;
 }
@@ -753,7 +753,7 @@ header a img{
 
 .footer {
      font-family: Poppins;
-     background: #fff;
+     background: #fdd000;
      padding-top: 50px;
      text-align: center;
 }
@@ -770,7 +770,7 @@ header a img{
 }
 
 .cont_call h3 {
-     color: #414141;
+     color: #ffffff;
      font-size: 50px;
      line-height: 60px;
      font-weight: bold;
