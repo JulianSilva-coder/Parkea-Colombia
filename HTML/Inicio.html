@@ -106,12 +106,12 @@
       <!-- end banner -->
       <!-- car -->
       <div id="frame_login" style="display: none !important;">
-         <div id="cerrar" onclick="cerrarModal()" style="cursor: pointer;"> 
+         <div id="cerrar" style="cursor: pointer;"> 
          <div class="center">
             <button id="show-login">Login</button>
             </div>
             <div class="popup">
-                <div class="clos-btn">&times;</div>
+                <div class="clos-btn" onclick="cerrarModal()">&times;</div>
                 <div class="form">
                     <h2>Log in</h2>
                     <div class="form-element">
@@ -123,16 +123,23 @@
                         <input type="password" id="Contraseña" placeholder="Contraseña">
                     </div>
                     <div class="form-element">
+                     <button class="decorative-button" onclick="administrador()">Entrar</button>
+                 </div>
+                    <!--
+                    <div class="form-element">
                         <input type="checkbox" id="remember-me">
                         <label for="remember-me">Recordar Sesion</label>
                     </div>
                     <div class="form-element">
                         <a href="#">Olvido Contraseña</a>
                     </div>
+                    -->
                 </div>
             </div>
          </div>
-         </div>
+      </div>
+      <!-- end banner -->
+      <!-- car -->
       <div  class="car" id="miElemento">
          <div class="container">
             <div class="row">
@@ -165,7 +172,6 @@
             </div>
          </div>
       </div>
-      
       <!-- end car -->
       <!-- bestCar -->
       <div id="contact" class="bestCar" id="miElemento">
@@ -229,6 +235,7 @@
             </div>
          </div>
       </div>
+    
       <!-- end bestCar -->
       <!-- choose  section -->
       <div class="choose" id="miElemento">
@@ -337,8 +344,8 @@
                         <div class="carousel-item">
                            <div class="container">
                               <div class="carousel-caption">
-                                 <div class="cross_img">
-                                    <figure><img src="/Images/p5.jpg" alt="#"/></figure>
+                                 <div class="cross_img" style="opacity: 1;">
+                                    <figure><img src="/Images/p5.jpg" alt="#" style="opacity: 1;"/></figure>
                                  </div>
                               </div>
                            </div>

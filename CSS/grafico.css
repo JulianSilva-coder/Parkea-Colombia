@@ -1,0 +1,11 @@
+.marco{
+    display: flex;
+    justify-content: space-between;
+}
+
+.elemento{
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    
+}

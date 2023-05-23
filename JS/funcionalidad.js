@@ -226,6 +226,9 @@ function mostrarModal(){
 function cerrarModal(){
     document.getElementById("frame_login").style.display = "none";
     var div = document.getElementById("miElemento");
-      div.style.filter = "brightness(100%)";
-    
+      div.style.filter = "brightness(100%)";    
+}
+
+function administrador(){
+   window.location.href = "inicio_administrador.html";
 }

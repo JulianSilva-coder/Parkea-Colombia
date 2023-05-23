@@ -1,9 +1,3 @@
-.fondo{
-    background: url(/Images/bandera.webp);
-    height: 931px;
-    background-size: contain;
-}
-
 .logo{
     background-color: #002991;
     background: url(/Images/logonegro.png);

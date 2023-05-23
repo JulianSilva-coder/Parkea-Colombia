@@ -3,38 +3,21 @@
     height: 915px;
     background-size: contain;
 }
-.mapadiv{
-    float: left;
-    cursor: pointer;
-   }
-.contenedor{
-    position: relative; /* Establece el posicionamiento relativo */
-    margin: 10%;
-    margin-left: 60%;
-    width: 130%; /* Tamaño deseado para el contenedor */
-    height: -40%; /* Tamaño deseado para el contenedor */
-    }
 
-   .mapadiv path{
-       fill: #ffd900;
-       stroke: #030303;
-   }
-   
-   .mapadiv :hover{
-       fill: #ff0000;
-   }
+.Bienvenida h1{
+    margin-top: 7%;
+    margin-left: 28%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 400%;
+}
 
-       @media (min-width: 768px) {
-       .gradient-form {
-       height: 160vh !important;
-       }
-       }
-       @media (min-width: 769px) {
-       .gradient-custom-2 {
-       border-top-right-radius: .3rem;
-       border-bottom-right-radius: .3rem;
-       }
-       }
+.Bienvenida h2{
+    padding: 10%;
+    margin-left: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 230%;
+    color: #fff;
+}
 /*Menù lateral*/
 #btn-menu{
     display: none;
@@ -125,4 +108,4 @@ margin-top: auto;
     cursor: pointer; /* Cambia el cursor al pasar por encima */
     border-radius: 8px; /* Borde redondeado */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
-  }
+}
