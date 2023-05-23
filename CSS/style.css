@@ -276,40 +276,68 @@ button {
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 0 25px;
-     color: #000;
-     font-size: 16px;
-     line-height: 20px;
-     text-transform: uppercase;
+     font-family: 'Righteous', cursive;
+     font-size: 20px;
+     transition: ease-in all 0.5s;
+     background-color: #414141;
+     color: #fdd000;
+     padding: 5px 70px;
+     margin: 0 auto;
+     max-width: 250px;
+     width: 100%;
+     
+     display: block;
+     margin-top: 30px;
 }
-
-.navigation.navbar-dark .navbar-nav .nav-link:focus,
-.navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #f6d601;
+.navigation.navbar-dark .navbar-nav .nav-link:hover{
+     background-color: #bbbbbb;
+     transition: ease-in all 0.5s;
+     color: #414141;
+     border-radius: 26px;
 }
-
-.navigation.navbar-dark .navbar-nav .active>.nav-link,
-.navigation.navbar-dark .navbar-nav .nav-link.active,
-.navigation.navbar-dark .navbar-nav .nav-link.show,
-.navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #f6d601;
+.navigation.navbar-dark .navbar-nav .nav-link-2{
+     font-family: 'Righteous', cursive;
+     font-size: 20px;
+     transition: ease-in all 0.5s;
+     background-color: #414141;
+     color: #fdd000;
+     padding: 5px 60px;
+     margin: 0 auto;
+     max-width: 250px;
+     width: 100%;
+     display: block;
+     margin-top: 30px;
+}
+.navigation.navbar-dark .navbar-nav .nav-link-2:hover{
+     background-color: #bbbbbb;
+     transition: ease-in all 0.5s;
+     color: #414141;
+     border-radius: 26px;
 }
 
 .navbar-expand-md .navbar-nav {
-     padding-right: 10px;
+     padding-right: 60px;
 }
 
 .sign_btn a {
-     background-color: #f6d601;
-     display: inline-block;
-     padding: 7px 35px;
-     border-radius: 30px;
-     color: #000;
-     font-size: 17px;
+     font-family: 'Righteous', cursive;
+     font-size: 20px;
+     transition: ease-in all 0.5s;
+     background-color: #414141;
+     color: #fdd000;
+     padding: 5px 60px;
+     margin: 0 auto;
+     max-width: 250px;
+     width: 100%;
+     display: block;
+     margin-top: 30px;
 }
 
 .sign_btn a:hover {
-     color: #fff;
+     background-color: #ffffff;
+     transition: ease-in all 0.5s;
+     color: #414141;
+     border-radius: 26px;
 }
 
 
@@ -323,8 +351,8 @@ button {
 
 .header {
      width: 100%;
-     background: #fff;
-     padding: 20px 30px;
+     background: #23262d;
+     padding: 10px 70px;
 }
 
 .logo a {
@@ -343,7 +371,7 @@ header a img{
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
+     background: url(../images/fondo-bandera.jpg);
      background-repeat: no-repeat;
      min-height: 700px;
      display: flex;
@@ -493,7 +521,7 @@ header a img{
 
 .bestCar {
      margin-top: 90px;
-     background: url(../images/parqueadero1.jpg);
+     background: url(../images/banner.jpg);
      background-repeat: no-repeat;
      background-size: 100% 100%;
      padding: 100px 0
@@ -526,20 +554,20 @@ header a img{
      font-family: 'Righteous', cursive;
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #000;
-     color: #fff;
+     background-color: #fdd000;
+     color: #414141;
      padding: 13px 0px;
      margin: 0 auto;
-     max-width: 200px;
+     max-width: 250px;
      width: 100%;
      display: block;
      margin-top: 30px;
 }
 
 .bestCar .main_form .find_btn:hover {
-     background-color: #f6d601;
+     background-color: #003261;
      transition: ease-in all 0.5s;
-     color: #000;
+     color: #fdd000;
      border-radius: 26px;
 }
 
