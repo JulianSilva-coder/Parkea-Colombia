@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/CSS/inicio_admin.css">
     <link rel="stylesheet" type="text/css" href="/CSS/tablas.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/grafico.css">
     <title>Administrador</title>
 </head>
 <body class="fondo_admin" style=" background-color: rgba(255,255,255,1);">
-    <script src="/JS/funcion_admin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
     <header class="header">
         <div class="container">
             <div class="btn-menu">
@@ -37,9 +38,16 @@
             </div>
         </div>
     </div>
-    <div class="Bienvenida" id="bienvenida">
-        <h1>BIENVENIDO ADMINISTRADOR</h1>
-        <h2>POR FAVOR SELECCIONA UNA OPCION EN LA BARRA DE OPCIONES</h2>
+    <div class="grafica" id="grafica">
+        <div class="box">
+            <canvas id="barras"></canvas>
+        </div>
+        <div class="box">
+            <canvas id="dispersion"></canvas>
+        </div>
+        <div class="box">
+            <canvas id="torta"></canvas>
+        </div>
     </div>
     <div id="tipo_parqueadero" style="display: none;">
     <main class="table_parqueadero" >
@@ -188,5 +196,7 @@
         </section>
     </main>
 </div>
+<script src="/JS/funcion_admin.js"></script>
+<script src="/JS/graficas.js"></script>
 </body>
 </html>
