@@ -11,6 +11,7 @@
 </head>
 <body class="fondo_admin" style=" background-color: rgba(255,255,255,1);">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <aside id="sidebar">
     <header class="header">
         <div class="container">
             <div class="btn-menu">
@@ -38,6 +39,8 @@
             </div>
         </div>
     </div>
+</aside>
+<main id="content">
     <div class="grafica" id="grafica">
         <div class="box">
             <canvas id="barras"></canvas>
@@ -47,6 +50,9 @@
         </div>
         <div class="box">
             <canvas id="torta"></canvas>
+        </div>
+        <div class="box">
+            <h2></h2>
         </div>
     </div>
     <div id="tipo_parqueadero" style="display: none;">
@@ -196,6 +202,7 @@
         </section>
     </main>
 </div>
+</main>
 <script src="/JS/funcion_admin.js"></script>
 <script src="/JS/graficas.js"></script>
 </body>

@@ -1,5 +1,5 @@
 function tipo_de_parqueadero() {
-    var bienvenida = document.getElementById("bienvenida");
+    var bienvenida = document.getElementById("grafica");
     var tipo_de_parqueadero = document.getElementById("tipo_parqueadero");
     var documento = document.getElementById("tipo_Documento");
 
@@ -16,7 +16,7 @@ function tipo_de_parqueadero() {
 };
 
 function tipo_de_documento() {
-    var bienvenida = document.getElementById("bienvenida");
+    var bienvenida = document.getElementById("grafica");
     var documento = document.getElementById("tipo_Documento");
     var tipo_de_parqueadero = document.getElementById("tipo_parqueadero");
 
@@ -32,7 +32,7 @@ function tipo_de_documento() {
     }
 };
 function carros() {
-    var bienvenida = document.getElementById("bienvenida");
+    var bienvenida = document.getElementById("grafica");
     var carro = document.getElementById("carros");
     var documento = document.getElementById("tipo_Documento");
     var tipo_de_parqueadero = document.getElementById("tipo_parqueadero");
@@ -51,7 +51,7 @@ function carros() {
 };
 
 function auditoria() {
-    var bienvenida = document.getElementById("bienvenida");
+    var bienvenida = document.getElementById("grafica");
     var carro = document.getElementById("carros");
     var documento = document.getElementById("tipo_Documento");
     var tipo_de_parqueadero = document.getElementById("tipo_parqueadero");
@@ -73,7 +73,7 @@ function auditoria() {
 };
 
 function reserva() {
-    var bienvenida = document.getElementById("bienvenida");
+    var bienvenida = document.getElementById("grafica");
     var carro = document.getElementById("carros");
     var documento = document.getElementById("tipo_Documento");
     var tipo_de_parqueadero = document.getElementById("tipo_parqueadero");

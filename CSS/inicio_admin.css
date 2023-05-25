@@ -4,7 +4,9 @@
     background-size: cover;
 }
 
-
+#content{
+margin-left: 250px;
+}
 /*Menù lateral*/
 #btn-menu{
     display: none;
