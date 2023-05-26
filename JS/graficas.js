@@ -6,7 +6,7 @@ var myChart = new Chart(barras, {
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Grafica de Barras',
             data: [12, 19, 3, 5, 2, 3],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -37,7 +37,7 @@ var myChart = new Chart(dispersion, {
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Grafica de dispersion ',
             data: [12, 19, 3, 5, 2, 3],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -68,7 +68,7 @@ var myChart = new Chart(torta, {
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Grafica de Torta',
             data: [12, 19, 3, 5, 2, 3],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',

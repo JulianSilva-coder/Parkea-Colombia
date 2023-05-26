@@ -232,3 +232,8 @@ function cerrarModal(){
 function administrador(){
    window.location.href = "inicio_administrador.html";
 }
+
+
+function mapa(){
+    window.location.href = "croquis-client.html";
+}
