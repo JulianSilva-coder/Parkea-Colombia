@@ -38,7 +38,7 @@ html {
 }
 
 body {
-     color: #666666;
+     color: #fdd000;
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
@@ -279,7 +279,7 @@ button {
      font-family: 'Righteous', cursive;
      font-size: 20px;
      transition: ease-in all 0.5s;
-     background-color: #414141;
+     background-color: #23262d;
      color: #fdd000;
      padding: 5px 70px;
      margin: 0 auto;
@@ -290,16 +290,16 @@ button {
      margin-top: 30px;
 }
 .navigation.navbar-dark .navbar-nav .nav-link:hover{
-     background-color: #bbbbbb;
+     background-color: #fdd000;
      transition: ease-in all 0.5s;
-     color: #414141;
+     color: #ffffff;
      border-radius: 26px;
 }
 .navigation.navbar-dark .navbar-nav .nav-link-2{
      font-family: 'Righteous', cursive;
      font-size: 20px;
      transition: ease-in all 0.5s;
-     background-color: #414141;
+     background-color: #23262d;
      color: #fdd000;
      padding: 5px 60px;
      margin: 0 auto;
@@ -309,9 +309,9 @@ button {
      margin-top: 30px;
 }
 .navigation.navbar-dark .navbar-nav .nav-link-2:hover{
-     background-color: #bbbbbb;
+     background-color: #fdd000;
      transition: ease-in all 0.5s;
-     color: #414141;
+     color: #ffffff;
      border-radius: 26px;
 }
 
@@ -323,7 +323,7 @@ button {
      font-family: 'Righteous', cursive;
      font-size: 20px;
      transition: ease-in all 0.5s;
-     background-color: #414141;
+     background-color: #23262d;
      color: #fdd000;
      padding: 5px 60px;
      margin: 0 auto;
@@ -334,9 +334,9 @@ button {
 }
 
 .sign_btn a:hover {
-     background-color: #ffffff;
+     background-color: #fdd000;
      transition: ease-in all 0.5s;
-     color: #414141;
+     color: #ffffff;
      border-radius: 26px;
 }
 
@@ -405,7 +405,7 @@ header a img{
 
 .text-bg span {
      font-family: 'Righteous', cursive;
-     color: #f6d601;
+     color: #ffffff;
      font-size: 40px;
      line-height: 50px;
      font-weight: bold;
@@ -414,6 +414,7 @@ header a img{
 }
 
 .text-bg p {
+     font-family: 'Righteous', cursive;
      color: #fff;
      font-size: 17px;
      line-height: 28px;
@@ -423,8 +424,8 @@ header a img{
 .text-bg a {
      font-family: 'Righteous', cursive;
      font-size: 17px;
-     background-color: #fff;
-     color: #000;
+     background-color: #777777;
+     color: #ffffff;
      padding: 13px 0px;
      width: 100%;
      max-width: 190px;
@@ -434,7 +435,7 @@ header a img{
 }
 
 .text-bg a:hover {
-     background-color: #f6d601;
+     background-color: #000000;
      color: #000;
      transition: ease-in all 0.5s;
      border-radius: 26px;
